@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 90px 20px 0;
+    /*se agrega para que al poner position:fixed no se junte todo arriba*/
+    background-color: whitesmoke
+
+}
+
+header {
+    display: flex;
+    background-color: #3366FF;
+    min-height: 80px;
+    padding: 0px;
+    padding-bottom: 0px;
+    position: fixed;
+    /*hace que el nav quede fijo, cuando bajamos la pag sigue apareciendo */
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+    /*  z-index: 100;/* hace que quede por encima de los otros elementos */
+    
+}
+
+nav{
+    margin-bottom: 10px;
+
+
+}
+
+.navmenu {
+    list-style: none;
+    font-weight: 100;
+    /*especifica el grosor de la letra*/
+    display: flex;
+    margin-right: 4px;
+    padding: 15px;
+    
+}
+
+.nav-menu-item {
+    /* flex-grow: 1; */
+    font-size: 20px;
+    margin: 0 1px;
+    text-align: center;
+    width: max-content;
+    /*hace que no se corte el contenido, sobre todo si tiene dos palabras ej carta de colores*/
+
+
+
+}
+
+nav ul li a {
+    color: white;
+    /* display: block;*/
+    text-decoration: none;
+    text-align: center;
+    padding: 6px 12px;
+
+
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px;
+    
+  
+
+}
+
+
+
+footer {
+    background-color: #3366FF;
+    clear: both;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img {
+    border-radius: 15px;
+    padding: 0;
+     /*line-height: 80px;
+    alto de linea igual que header , tiene que quedar centrado*/
+    width:200px;
+    margin-left: 4px;
+    display: flex;
+}
+
+.instagram {
+    width: 30px;
+    border-radius: 10px;
+
+}
+
+.facebook {
+    width: 30px;
+    border-radius: 8px;
+}
+
+.container-fluid {
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    padding: 0.5px;
+
+
+}
+
+.container-fluid input#search {
+    width: 200px;
+    height: 30px;
+    background-color: azure;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    border-radius: 5px;
+}
+
+.botonbuscar {
+    padding: 3px;
+    border-radius: 5px;
+    border: #63717f;
+    color: #63717f;
+}
+
+.toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+
+    display: none;
+
+}
+
+nav ul li a.activo{
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+/*
+h2{
+    color:black ;
+    font-weight: 400;
+} */
+
+
+
+/*inicio home*/
+
+.columnas-flex{
+
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.imagenbienvenidos{
+    
+    width: 40%; 
+}
+.imagenbienvenidos img{
+    
+    width: 100%; 
+    padding-top: 110px;
+}
+
+
+.bienvenidos{
+   /*  max-width: 960px;
+    margin: 0 auto;*/
+    width: 60%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-top: 30px;
+
+
+}
+
+
+.blanco { 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.blanco img{
+    width: 100%;
+    height: 100px;
+
+}
+
+.textbienvenidos{
+    background-color:powderblue;
+    min-height: 100px;
+    text-align: center;
+    color: white;
+    padding-top: 45px;
+  
+   
+}
+
+
+
+/* fin home*/
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    .header {
+        height: 60px;
+    }
+
+
+
+    .logo {
+        border-radius: 15px;
+        padding: 0;
+        line-height: 60px;
+        /* alto de linea igual que header , tiene que quedar centrado*/
+        margin-left: 4px;
+    }
+
+    .navmenu {
+        list-style: none;
+
+        font-weight: 100;
+        /*especifica el grosor de la letra*/
+        flex-direction: column;
+        margin-right: 0px;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        align-items: center;
+        padding: 0 ;
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        left: 100%;
+        transition: left 0.3s;
+        background-color:#293132;
+
+    }
+
+    .toggle {
+        color: white;
+        background: none;
+        border: none;
+        font-size: 30px;
+        padding: 0 20px;
+        line-height: 60px;
+        display: block;
+        cursor: pointer;
+
+    }
+
+    .nav-menu_visible {
+        left: 0;
+
+    }
+
+    
+nav ul li a {
+    color: white;
+    /* display: block;*/
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 12px;
+
+
+}
+footer {
+    background-color: #3366FF;
+  
+    clear: both;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px 0;
+   
+}
+
+
+/*nosotros media*/
+
+.imagenbienvenidos img{
+    padding-left:40px;
+    width:400px;
+    height: 100px;
+    margin-left: 0;
+}
+
+
+
+
+
+/*
+.holder{
+    max-width: 960px;
+    margin: 0 auto; */
+}
+
+
+
