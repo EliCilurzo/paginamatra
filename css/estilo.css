@@ -179,7 +179,7 @@ h2{
 
 
 
-/*inicio home*/
+/*inicio nosotros*/
 
 .columnas-flex{
 
@@ -233,10 +233,502 @@ h2{
    
 }
 
+/* fin nosotros */
+
+/* inicio productos */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 
-/* fin home*/
 
+.nuestrosproductos{
+    /*position: relative;*/
+    width: 100%;
+    height: 400px ;
+    overflow: hidden;
+    margin: 100px auto;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    
+
+
+
+}
+
+.nuestrosproductos:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+.nuestrosproductos img{
+padding-top: px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.nuestrosproductos p{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out;
+    width: max-content;
+    
+    
+
+}
+
+
+.container img {
+    width: 250px;
+    padding-left: 25px;
+    padding-top: 30px;
+    height: 180px;
+    
+    
+}
+
+.sinteticos{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+
+}
+
+.sinteticos:hover{
+
+    transform: scale(1.1);
+}
+.sinteticos a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color: #293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.sinteticos p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color: deeppink;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    
+
+}
+a:hover{
+    background-color: transparent;
+    border: 2px solid #293132;
+    color: #293132;
+
+}
+
+.sinteticos:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.sinteticos img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+.latex{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.latex:hover{
+
+    transform: scale(1.1);
+}
+.latex a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color: #293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.latex p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:orangered;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.latex:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.latex img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+
+.barnices{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.barnices:hover{
+
+    transform: scale(1.1);
+}
+.barnices a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color: #293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.barnices p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:chocolate;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.barnices:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.barnices img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+.fijadores{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.fijadores:hover{
+
+    transform: scale(1.1);
+}
+.fijadores a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color: #293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.fijadores p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:crimson;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.fijadores:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.fijadores img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+.impermeabilizantes{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.impermeabilizantes:hover{
+
+    transform: scale(1.1);
+}
+.impermeabilizantes a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color: #293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.impermeabilizantes p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:darkgrey;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.impermeabilizantes:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.impermeabilizantes img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+.anticorrosivos{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.anticorrosivos:hover{
+
+    transform: scale(1.1);
+}
+.anticorrosivos a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color:#293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.anticorrosivos p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:darkviolet;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.anticorrosivos:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.anticorrosivos img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+
+.enduidos{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.enduidos:hover{
+
+    transform: scale(1.1);
+}
+.enduidos a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color:#293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.enduidos p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:cyan;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.enduidos:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.enduidos img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+/*otros*/
+
+
+.otros{
+    width: 300px;
+    height: 400px;
+    padding: 15px 12px ;
+    box-shadow: 5px 8px 12px #63717f;
+    transition: all 0.3s ease 0.5s;
+      
+}
+
+.otros:hover{
+
+    transform: scale(1.1);
+}
+.otros a{
+    width: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    background-color:#293132;
+    margin-left: 60px;
+
+    
+
+}
+
+.otros p{
+    padding: 20px 15px;
+    text-align: center;
+    font-size: larger;
+    font-family: sans-serif;
+    background-color:chartreuse;
+    border-radius: 10PX;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    }
+
+
+
+.otros:hover{
+    box-shadow: 10px 12px 30px black;
+}
+
+.otros img:hover{
+   transform: scale(1.2); 
+    
+}
+
+
+
+
+
+/* fin productos */
 
 
 
