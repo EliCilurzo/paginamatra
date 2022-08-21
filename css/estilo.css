@@ -112,15 +112,12 @@ footer {
     display: flex;
 }
 
-.instagram {
-    width: 30px;
-    border-radius: 10px;
 
-}
-
-.facebook {
-    width: 30px;
-    border-radius: 8px;
+.botonera i{
+    font-size: 25px;
+    margin: 0 7px;
+    align-self: center;
+ 
 }
 
 .container-fluid {
