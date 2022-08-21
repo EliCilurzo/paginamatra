@@ -266,13 +266,13 @@ h2{
 
 
 .nuestrosproductos{
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     height: 400px ;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 50px auto;
     border-radius: 20px;
-    box-shadow: 5px 8px 12px black;
+   /* box-shadow: 5px 8px 12px black; */
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     
@@ -281,13 +281,13 @@ h2{
 
 }
 
-.nuestrosproductos:hover{
-    transform: scale(1.1);
-    box-shadow: 13px 15px 37px black;
-}
+/*.nuestrosproductos:hover{
+    transform: scale(1.1); 
+   box-shadow: 13px 15px 37px black; 
+}*/
 
 .nuestrosproductos img{
-padding-top: px;
+padding-top: 0px;
     width: 100%;
     height: 100%;
 
@@ -330,6 +330,7 @@ padding-top: px;
 .sinteticos:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .sinteticos a{
     width: 50px;
@@ -366,9 +367,6 @@ a:hover{
 
 }
 
-.sinteticos:hover{
-    box-shadow: 10px 12px 30px black;
-}
 
 .sinteticos img:hover{
    transform: scale(1.2); 
@@ -388,6 +386,7 @@ a:hover{
 .latex:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .latex a{
     width: 50px;
@@ -417,11 +416,6 @@ a:hover{
     }
 
 
-
-.latex:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .latex img:hover{
    transform: scale(1.2); 
     
@@ -441,6 +435,7 @@ a:hover{
 .barnices:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .barnices a{
     width: 50px;
@@ -471,10 +466,6 @@ a:hover{
 
 
 
-.barnices:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .barnices img:hover{
    transform: scale(1.2); 
     
@@ -493,6 +484,7 @@ a:hover{
 .fijadores:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .fijadores a{
     width: 50px;
@@ -523,10 +515,6 @@ a:hover{
 
 
 
-.fijadores:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .fijadores img:hover{
    transform: scale(1.2); 
     
@@ -545,6 +533,7 @@ a:hover{
 .impermeabilizantes:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .impermeabilizantes a{
     width: 50px;
@@ -574,11 +563,6 @@ a:hover{
     }
 
 
-
-.impermeabilizantes:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .impermeabilizantes img:hover{
    transform: scale(1.2); 
     
@@ -597,6 +581,7 @@ a:hover{
 .anticorrosivos:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .anticorrosivos a{
     width: 50px;
@@ -626,17 +611,10 @@ a:hover{
     }
 
 
-
-.anticorrosivos:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .anticorrosivos img:hover{
    transform: scale(1.2); 
     
 }
-
-
 
 .enduidos{
     width: 300px;
@@ -650,6 +628,7 @@ a:hover{
 .enduidos:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .enduidos a{
     width: 50px;
@@ -679,11 +658,6 @@ a:hover{
     }
 
 
-
-.enduidos:hover{
-    box-shadow: 10px 12px 30px black;
-}
-
 .enduidos img:hover{
    transform: scale(1.2); 
     
@@ -705,6 +679,7 @@ a:hover{
 .otros:hover{
 
     transform: scale(1.1);
+    box-shadow: 10px 12px 30px black;
 }
 .otros a{
     width: 50px;
@@ -733,11 +708,6 @@ a:hover{
     margin-bottom: 40px;
     }
 
-
-
-.otros:hover{
-    box-shadow: 10px 12px 30px black;
-}
 
 .otros img:hover{
    transform: scale(1.2); 
